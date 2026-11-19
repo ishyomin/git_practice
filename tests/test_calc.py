@@ -8,3 +8,6 @@ def test_subtract():
 
 def test_subtract_negative():
     assert calc.subtract(3, 5) == -2
+
+def test_multiply():
+    assert calc.multiply(3, 4) == 12
